@@ -27,7 +27,7 @@ pip install openpyxl
 ```
 
 ### Directorio de archivos
-***main.py:*** script que obtiene la informacion y la imprime en un archivo _.pdf_ (actualmente falla la funcion de guardar el pdf)
-***test.py:*** script para correr pruebas de bloques de codigo (aqui si funcion la funcion de exportar a pdf)
-***toexcel.py:*** script que obtiene la informacion y la guarda en un archivo _.xlsx_ (guarda una hoja por investigador dentro del mismo arhcivo)
-***ScholarLink.csv:*** csv generado por el script _main.py_ o _toexcel.py_ si asi se desea (actualmente se necesita para correr _test.py_)
+***main.py:*** script que obtiene la informacion y la imprime en un archivo _.pdf_ (actualmente falla la funcion de guardar el pdf)<br>
+***test.py:*** script para correr pruebas de bloques de codigo (aqui si funciona la funcion de exportar a pdf)<br>
+***toexcel.py:*** script que obtiene la informacion y la guarda en un archivo _.xlsx_ (guarda una hoja por investigador dentro del mismo archivo)<br>
+***ScholarLink.csv:*** csv generado por el script _main.py_ o _toexcel.py_ si asi se desea (actualmente se necesita para correr _test.py_)<br>
