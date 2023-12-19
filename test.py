@@ -69,10 +69,11 @@ pdf.ln(20)
 #     print(title, '\t', year, '\t', cited_by)
 
 base = pd.read_csv('ScholarLink.csv')
-articles = []
-cited = []
-years = []
+
 for sep in range(0,3):
+    articles = []
+    cited = []
+    years = []
     user = base['username'][sep]
     # params = {
     #     'engine': 'google_scholar_author',
